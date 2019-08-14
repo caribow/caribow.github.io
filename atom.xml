@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>C:/Users/26837/Documents/Gridea/output</id>
-    <title>Gridea</title>
-    <updated>2019-08-14T02:08:51.102Z</updated>
+    <id>https://caribow.github.io/</id>
+    <title>昼见</title>
+    <updated>2019-08-14T02:41:48.078Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="C:/Users/26837/Documents/Gridea/output"/>
-    <link rel="self" href="C:/Users/26837/Documents/Gridea/output/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>C:/Users/26837/Documents/Gridea/output/images/avatar.png</logo>
-    <icon>C:/Users/26837/Documents/Gridea/output/favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <link rel="alternate" href="https://caribow.github.io/"/>
+    <link rel="self" href="https://caribow.github.io//atom.xml"/>
+    <subtitle>每个时代差不多，稍微不同，你不用为这些事困惑。</subtitle>
+    <logo>https://caribow.github.io//images/avatar.png</logo>
+    <icon>https://caribow.github.io//favicon.ico</icon>
+    <rights>All rights reserved 2019, 昼见</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>C:/Users/26837/Documents/Gridea/output/post/hello-gridea/index.html</id>
-        <link href="C:/Users/26837/Documents/Gridea/output/post/hello-gridea/index.html">
+        <id>https://caribow.github.io//post/hello-gridea</id>
+        <link href="https://caribow.github.io//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
