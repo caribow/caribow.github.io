@@ -1,92 +1,157 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+      
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>昼见</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<title>戒指 | 昼见</title>
-<meta name="description" content="每个时代差不多，稍微不同，你不用为这些事困惑。">
+<meta name="description" content="每个时代差不多，稍微不同，你不用为这些事困惑。"/>
+<meta name="keywords" content="每个时代差不多，稍微不同，你不用为这些事困惑。"/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="https://caribow.github.io//favicon.ico">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://caribow.github.io//favicon.ico?v=1565753437747">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://caribow.github.io//styles/main.css">
 
+<!-- Modernizr JS -->
+<script src="https://caribow.github.io//media/scripts/_vendors/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<scripts src="https://caribow.github.io//media/scripts/_vendors/respond.min.js"></scripts>
+<![endif]-->
+
+<!-- Comment -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/tomorrow-night.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<link crossorigin="anonymous" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" href="https://lib.baomitu.com/font-awesome/5.8.1/css/all.min.css" rel="stylesheet">
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://caribow.github.io/">
-        <img class="avatar" src="https://caribow.github.io//images/avatar.png?v=1565753437747" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://caribow.github.io/">
-        <h1 class="site-title">昼见</h1>
-      </a>
+  
+<div id="fh5co-offcanvas">
+    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
+        <span><i class="icon-cross3"></i> <span>Close</span></span>
+    </a>
+    <div class="fh5co-bio">
+        <figure>
+            <img src="https://caribow.github.io//media/images/avatar.png" alt="昼见" class="img-responsive">
+        </figure>
+        <h3 class="heading">ABOUT ME</h3>
+        <h2>昼见</h2>
+        <p>每个时代差不多，稍微不同，你不用为这些事困惑。</p>
+        <ul class="fh5co-social">
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+                <li>
+                    
+                </li>
+            
+        </ul>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
+
+    <div class="fh5co-menu">
+        <div class="fh5co-box">
+            <h3 class="heading">搜索</h3>
+            <form action="#">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="输入关键字">
+                </div>
+            </form>
+        </div>
+        <div class="fh5co-box">
+            <h3 class="heading">标签</h3>
+            <ul>
+                
+            </ul>
+        </div>
     </div>
-  </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
+<header id="fh5co-header">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+            <ul class="fh5co-social">
+                
+                    <li>
+                        <a href="/"
+                         >
+                            首页
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives"
+                         >
+                            归档
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags"
+                         >
+                            标签
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/about"
+                         >
+                            关于
+                        </a>
+                    </li>
+                
+            </ul>
+            <div class="col-lg-12 col-md-12 text-center">
+                <h1 id="fh5co-logo">
+                    <a href="https://caribow.github.io/">昼见</a>
+                </h1>
+            </div>
+        </div>
     </div>
-  </div>
-</transition>
+</header>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">戒指</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-08-14</span>
-            
-          </div>
-          <div class="post-content">
-            <p>刘超死的那天是母亲节，距离他高中毕业还有几个月时间。</p>
+<!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+<!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+
+  <div class="container-fluid">
+      <div class="row fh5co-post-entry single-entry">
+          <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+              <figure class="animate-box">
+                  
+                      <img src="https://caribow.github.io//post-images/jie-zhi.jpg" alt="戒指" class="img-responsive">
+                  
+              </figure>
+              <span class="fh5co-meta animate-box">
+                  
+              </span>
+              <h2 class="fh5co-article-title animate-box">戒指</h2>
+              <span class="fh5co-meta fh5co-date animate-box">2019-08-14</span>
+
+              <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                  <div class="row">
+                      <div class="col-md-12 animate-box post-content">
+                          <p> <p>刘超死的那天是母亲节，距离他高中毕业还有几个月时间。</p>
 <p>事情并非突然如此。在过去的几年里，伯母一家一直在为儿子白血病四处奔走。他们家里有各种各样的医疗广告，有厚厚一摞x光片，还有全国各地的火车票，以及一瓶巨大的白砂糖罐——刘超每次喝完中药后，都要送一勺白砂糖下肚。由此可见那黑乎乎的粘稠汤水可能并没有我想象中的那么好喝。</p>
 <p>刘超死后伯母把他所有的东西都烧了，唯独留下了一枚戒指，伯母笑着说这是刘超准备送给他女朋友的。刘超很高，能有一米八。但是白血病摧残了他的身体，这让他的身材看上去肥胖得有点离谱。我对他对象的存在持怀疑态度 。伯母焚烧遗物让我困惑，留下戒指更让我一头雾水 。一想到母亲节那天伯母在病床前的哭嚎，这前后的矛盾更让我难以理解。过了一段时间后，这个家里看起来似乎一直都只有这夫妻两人生活过。再后来，戒指也不见了，可能女朋友真的是伯母的一个玩笑话。</p>
 <p>我到医院的时候他已经去世了。多年以后外婆回想起来还是忍不住掉眼泪，说他走得痛苦，合眼的时候七窍流血；上午还跟妈妈说母亲节快乐，下午就没了，是个顶孝顺的孩子。这些我都印象深刻，因为在灵车上，这些就是外婆哭丧的唱词。灵车向地平线驶去，纸钱从灵车里飞洒出来，在高空打了一个又一个圈之后才悠悠扬扬落地。</p>
@@ -94,46 +159,49 @@
 <p>伯父是一个很有情调的人。他养鸽子，种栀子花，通晓家犬性情，会打小霸王游戏机，还开辟后山做菜园。最重要的是能烧的一手好菜，再加上我仅有的一条狗养在他那，所以一直以来，他家都是我眼里游乐园般的存在。当然伯父很少陪我玩，更多的时候是我一个人瞎晃悠。他很忙，要做各种各样的杂务。这些活儿又粗又累，但他总是笑眯眯的，看到我来就会打我的趣，有时候生气我就不理他，他就从冰箱里掏出瓜子冰激凌。他知道我喜欢吃，所以每年夏天都会备这个。</p>
 <p>在这个家族里男人从不哭，流泪似乎只是女人和孩子的特权，所以就算悲伤勒得他不能呼吸，身体和心已经支离破碎，他也只是静静地坐在病床边，用满手的茧子一遍又一遍地揉搓他的眼睛，似乎这样能让自己清醒一点，似乎睁开仔细看看，原来儿子就在房间里全神贯注地打着超级玛丽。</p>
 <p>他到底有女朋友吗？可能是有的，那大概是一个斯斯文文腼腆害羞的姑娘，身材娇小，梳着马尾，可能还戴着眼镜。还没下课，她正皱着眉头思索这一道椭圆方程题，刘超也在座位上，但他心思不在书上，他右手托腮，咬着笔头，两眼看着她的背影，左手伸进裤兜，掏出了那枚戒指，迟疑了一会，最后还是放了回去。</p>
+ </p>
+                      </div>
+                  </div>
 
-          </div>
-        </div>
+                  <div class="row">
+                      <div class="col-md-12 animate-box">
+                          
+                      </div>
+                  </div>
 
-        
+                  <div class="row">
+                      <div class="col-md-12 animate-box">
+                          
+                      </div>
+                  </div>
+              </div>
+
+          </article>
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">每个时代差不多，稍微不同，你不用为这些事困惑。</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://caribow.github.io//atom.xml" target="_blank">RSS</a>
-</div>
+
+    
+<footer id="fh5co-footer">
+  <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
+</footer>
 
 
-    </div>
-    <script type="application/javascript">
+    
+<!-- jQuery -->
+<script src="https://caribow.github.io//media/scripts/_vendors/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="https://caribow.github.io//media/scripts/_vendors/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="https://caribow.github.io//media/scripts/_vendors/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="https://caribow.github.io//media/scripts/_vendors/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="https://caribow.github.io//media/scripts/_vendors/main.js"></script>
+<!-- Md5 Min JS -->
+<script src="https://caribow.github.io//media/scripts/_vendors/md5.min.js"></script>
 
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script type="application/javascript">
+    hljs.initHighlightingOnLoad();
 </script>
 
 
