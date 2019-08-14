@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://caribow.github.io/</id>
     <title>昼见</title>
-    <updated>2019-08-14T09:47:52.795Z</updated>
+    <updated>2019-08-14T09:49:53.265Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://caribow.github.io/"/>
     <link rel="self" href="https://caribow.github.io//atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://caribow.github.io//images/avatar.png</logo>
     <icon>https://caribow.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 昼见</rights>
+    <entry>
+        <title type="html"><![CDATA[2222]]></title>
+        <id>https://caribow.github.io//post/2222</id>
+        <link href="https://caribow.github.io//post/2222">
+        </link>
+        <updated>2019-08-14T09:48:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>3333</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>3333</p>
+<!-- more -->
+<blockquote>
+<p>成都市<br>
+ewdw</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[戒指]]></title>
         <id>https://caribow.github.io//post/jie-zhi</id>
