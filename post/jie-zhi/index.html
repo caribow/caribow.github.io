@@ -17,11 +17,19 @@ function getCSS()
         datetoday.setTime(timenow);
         thehour = datetoday.getHours();
 
+        if (thehour<21)
+
             display = "https://caribow.github.io//media/css/night.css";
 
+       else if (thehour>7)
+
             display = "https://caribow.github.io//media/css/night.css";   
-      
+
+        else if (thehour>21)
+           
             display = "https://caribow.github.io//media/css/day.css";
+
+        else if (thehour<7)
 
             display = "https://caribow.github.io//media/css/day.css";
       
@@ -174,6 +182,8 @@ window.onload=getCSS();
 	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">
 	<div class="author-avatar pull-left"><img src="https://caribow.github.io//images/avatar.png" ></div>
  
+	<div class="author-description"><div class="author-title"><div class="author-link" rel="author">昼见</div></div>
+
 
 		</div>
 		
